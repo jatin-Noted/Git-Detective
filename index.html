@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Detective</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+
+            <div class="head-section">
+                <h1 class="heading">GitHub Detective</h1>
+                <div class="mode-bttn" data-modeBttn>
+                    <p class="mode-name" data-modeName>DARK</p>
+                    <img src="./Assets/moon-icon.svg" alt="rel" data-modeIcon>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <div class="input-search-container">
+                    <img src="./Assets/search-icon.svg" alt="rel" width="25" height="25">
+                    <input type="search" name="input" id="input" placeholder="Enter a GitHub username..." required data-searchInput>
+                </div>                
+
+                <div class="bttn-container">
+                    <p class="no-result" data-noResult>no search results...</p>
+                    <button class="search-bttn" data-searchBttn>Search</button>
+                </div>
+
+
+            </div>
+
+            <div class="git-profile-container">
+
+                <div class="left-container">
+                    <img class="img-container" src="" alt="rel" data-profileImg>
+                </div>
+
+                <div class="right-container">
+
+                    <div class="about-container">
+
+                        <div class="sub-details">
+
+                            <h2 class="name" data-name></h2>
+                            <a href="#" class="link" data-link></a>
+                            <p class="bio" data-bio></p>
+
+                        </div>
+
+                        <div class="date" data-dateJoined>Joined 31 october 2021</div>
+
+                    </div>
+
+                    <div class="profile-stats-container">
+                        <div class="profile-stat">
+                            <p class="stat-title">Repos</p>
+                            <p class="stat-value" data-reposCount>71</p>
+                        </div>
+                        <div class="profile-stat">
+                            <p class="stat-title">Followers</p>
+                            <p class="stat-value" data-followersCount>500</p>
+                        </div>
+                        <div class="profile-stat">
+                            <p class="stat-title">Following</p>
+                            <p class="stat-value" data-followingCount>500</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-bottom-container">
+                        <div class="profile-info">
+                            <img src="./Assets/location-icon.svg" alt="rel">
+                            <p class="location" data-location>iqedjec ewqhbdue jkbeqd</p>
+                        </div>
+                        <div class="profile-info">
+                            <img src="./Assets/website-icon.svg" alt="rel">
+                            <a href="#" class="webpage" data-weblink>bjhashjavshdx</a>
+                        </div>
+                        <div class="profile-info">
+                            <img src="./Assets/twitter-icon.svg" alt="rel">
+                            <a href="#" class="twitterHandle" data-twitterHandle>hdgwhevgvgvqweg</a>
+                        </div>
+                        <div class="profile-info">
+                            <img src="./Assets/company-icon.svg" alt="rel">
+                            <p class="company" data-company>yuewhqwd ufqedtw ygyedw</p>
+                        </div>
+                    </div>
+
+
+                </div>               
+
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
