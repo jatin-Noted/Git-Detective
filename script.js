@@ -96,8 +96,8 @@ function renderProfile(data){
 
         function checkNull(parameter1, parameter2){
             if(parameter1 === "" || parameter1 === null){
-                parameter2.style.opacity = 0.5;
-                parameter2.previousElementSibling.style.opacity = 0.5;
+                // parameter2.style.opacity = 0.5;
+                // parameter2.previousElementSibling.style.opacity = 0.5;
                 return false;
             } 
             else{
