@@ -68,7 +68,7 @@ function darkModeActive(){
     root.setProperty("--lm-bg", "#F6F8FF");
     root.setProperty("--lm-bg-content", "#FEFEFE");
     root.setProperty("--lm-text", "#4B6A9B");
-    root.setProperty("--lm-text-alt", "#0079ff");
+    root.setProperty("--lm-text-alt", "#2B3442");
     // root.setProperty("--lm-shadow-xl", "rgba(70, 88, 109, 0.25)");
     modeName.innerText = "DARK";
     modeIcon.src = "./Assets/moon-icon.svg";
